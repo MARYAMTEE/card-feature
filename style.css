@@ -4,17 +4,80 @@ h3{
     font-family: "Poppins", serif;
     font-size: 600;
     font-weight: bold;
+    color: hsl(234, 12%, 34%);
 }
 p{
     font-family: "Poppins", serif;
     font-size: 15px;
-}
-main{
-    margin: auto;
+    color: hsl(229, 6%, 66%)}
+
+svg{
+    margin: 20px 0 0 200px;
 }
 
+span p{
+    font-family: "Poppins", serif;
+    font-size: large;
+    color: hsl(229, 6%, 66%);
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+body{
+    margin: 100px;
+}
+
+
+/* FOR MOBILE PHONE*/
+@media only screen and (min-width: 200px){
+    .container{
+        margin: auto;
+        width: 20rem;
+        padding: 50px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+}
+
+/* FOR DESKTOP */
+
+/* INDIVIDUAL CARD DESIGN */
 #card1{
+    max-width: 18rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: white;
-    padding: 15px
+    border-radius: 5px;
+    border-top: 4px solid hsl(180, 62%, 55%);
+    padding: 15px;
+    margin: 20px 0;
+}
+
+#card2{
+    max-width: 18rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 5px;
+    border-top: 4px solid hsl(0, 78%, 62%);
+    padding: 15px;
+    margin: 20px 0;
+}
+
+#card3{
+    max-width: 18rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 5px;
+    border-top: 4px solid hsl(34, 97%, 64%);
+    padding: 15px;
+    margin: 20px 0;
+}
+
+#card4{
+    max-width: 18rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 5px;
+    border-top: 4px solid hsl(212, 86%, 64%);
+    padding: 15px;
+    margin: 20px 0;
 }
