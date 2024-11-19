@@ -2,7 +2,7 @@
 
 h3{
     font-family: "Poppins", serif;
-    font-size: 600;
+    font-size: 800;
     font-weight: bold;
     color: hsl(234, 12%, 34%);
     line-height: 0;
@@ -32,13 +32,12 @@ span p{
     
     .container{
         width: 20rem;
-        padding: 30px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         margin: auto;
+        padding: 80px;
     }
     .cards{
         display: grid;
-        grid-gap: 25px;
+        grid-gap: 30px;
     }
     /* ICON */
     svg{
@@ -86,10 +85,7 @@ span p{
 
 /* FOR DESKTOP */
 @media only screen and (min-width: 1200px){
-    body{
-        margin: 100px;
-        box-sizing: border-box;
-    }
+   
     header{
         text-align: center;
         padding: 0 210px;
@@ -102,13 +98,11 @@ span p{
     .container{
         margin: auto;
         width: 60rem;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        padding: 30px 80px;
 }
     .cards{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        gap: 25px;
+        gap: 30px;
         margin: 60px 0;
     }
 
@@ -128,7 +122,7 @@ span p{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: white;
     border-radius: 5px;
-    border-top: 4px solid hsl(212, 86%, 64%);
+    border-top: 4px solid hsl(0, 78%, 62%);
     padding: 15px;
 }
 
