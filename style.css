@@ -83,3 +83,30 @@ h3{
     border-top: 4px solid hsl(180, 62%, 55%);
     padding: 25px;
 }
+
+.card-2{
+    width: 19.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 5px;
+    border-top: 4px solid hsl(0, 78%, 62%);
+    padding: 25px;
+}
+
+.card-3{
+    width: 19.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 5px;
+    border-top: 4px solid hsl(34, 97%, 64%);
+    padding: 25px;
+}
+
+.card-4{
+    width: 19.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 5px;
+    border-top: 4px solid hsl(212, 86%, 64%);
+    padding: 25px;
+}
