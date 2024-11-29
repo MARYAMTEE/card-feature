@@ -113,6 +113,12 @@ h3{
 
 @media only screen and (min-width: 1200px){
 
+    .para1{
+        color: var(--Grayish-Blue);
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    
 .cards{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
